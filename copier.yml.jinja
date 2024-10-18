@@ -4,7 +4,6 @@
 #   block_end_string: '%]'
 #   block_start_string: '[%'
 
-_subdirectory: "templates/{{ programming_language | lower }}"
 _message_before_copy: |
   Thanks for using SS NES software project template 
 _message_after_copy: |
@@ -75,14 +74,6 @@ software_purpose:
     type: str
     default: "The purpose of {{ software_name }} is ..."
     help: What's the purpose of "{{ software_name}}?"
-
-programming_language:
-  type: str
-  default: submodule-python
-  choices:
-    - submodule-python
-    - submodule-r
-  help: Which is the main programing language for developing "{{ software_name }}"?
 
 package_name:
     type: str
