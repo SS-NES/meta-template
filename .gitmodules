@@ -1,6 +1,0 @@
-[submodule "templates/submodule-r"]
-	path = templates/submodule-r
-	url = https://github.com/manuGil/submodule-r.git
-[submodule "templates/submodule-python"]
-	path = templates/submodule-python
-	url = https://github.com/manuGil/submodule-python.git
