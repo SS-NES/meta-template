@@ -31,10 +31,8 @@ template_name:
     default: My Template
     when: "{{ start_project == True }}"
 
-
 description:
     type: str
     help: Provide a brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
     when: "{{ start_project == True }}"
-
