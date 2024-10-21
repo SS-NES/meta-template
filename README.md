@@ -1,23 +1,22 @@
-# Software Templates for Research software
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Research software templates that implement the best practices on sustainable software for researchers in Natural and Engineering Science.  These templates provide boilerplate code and assets to initiate the research software development, including unit tests, documentation, etc.
+# Meta Template for Research software
+
+A template to initialize **templating projects** that comply with
+best practices on sustainable software in Natural and Engineering Science.  This template containts boilerplate for developing custom research software templates
+using copier.
 
 ## How to Use
 
 **Requirements**
 
 - Python 3.11 or higher
-- Copier
+- [Copier](https://copier.readthedocs.io)
 
-### Creating a software project
-
-```shell
-copier copy https://github.com/SS-NES/Software-Templates.git <path/to/project-directory>
-```
-Of after clonning the repository, use a **full path** to `Software-Templates/`:
+### Start a templating project
 
 ```shell
-copier copy ~/<local-path>/Software-Templates <path/to/project-directory>
+copier copy https://github.com/SS-NES/meta-template.git <path/to/project-directory>
 ```
 
 ### Updating an existing software project
@@ -28,42 +27,6 @@ Update the generated project by changing your answers. At the root of the softwa
 copier update
 ```
 > IMPORTANT: Before you are allow to update a project, the sofware project must be initialized as a Git repository, all files must be commited, and the status of the repository must show it is clean, i.e., no pending changes to commit.
-
-### Creating a software project from an SMP
-
-Given data from an SMP is provided as a YAML like:
-
-```yml
-software_name:  Demo
-release_date: June 4, 2024
-smp_version:  0.1.0
-authors:  [Jane Doe](mailto:doe.j@example.nl)
-purpose:  An example
-research_project_context: software templates
-ownership:  Institution
-version_control:  git
-public: True
-reuse: False
-repository: https://github.com
-software_license: Apache-2.0 (Apache License 2.0)
-citation: citation.cff
-user_documentation: user.md
-deployment_documentation: deploy.yml
-testing:  testing.yml
-quality:  Quality
-packaging:  PyPI
-maintenance:  maintenance.md
-sustainability: sustainable.md
-support:  support.md
-risk_analysis:  No risk
-data_management_plan: DMP
-```
-
-A  `smp.yml` file can be passed to copier when rendering the template.
-
-```shell
-copier copy --data-file </path/to/smp.yml> ~/<local-path>/Software-Templates <path/to/project-directory>
-```
 
 ## Acknowledgements
 

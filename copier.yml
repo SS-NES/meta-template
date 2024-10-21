@@ -1,110 +1,39 @@
+
 # configs
 # _envops:
 #   block_end_string: '%]'
 #   block_start_string: '[%'
 
-_subdirectory: "templates/{{ programming_language | lower }}"
 _message_before_copy: |
-  Thanks for using SS NES software project template 
+  Thanks for using SS NES research software templates.
+  This meta-template help template developers to create custom
+  templates for different purposes or programming languages, and
+  maintain consistency with the best practices adopted by the
+  SS NES community.
 _message_after_copy: |
-  Your project "{{ software_name }}" has been created successfully!
+  Your templating project "{{ template_name }}" has been created!
+  You ready to add custom successfully!
+
 _exclude:
     - ".git"
     - ".github"
     - ".gitignore"
-    - ".gitmodules"
     - "custom.yml"
+    - "README.md"
 
-software_name:
-    type: str
-    help: What's the name of your software?
-    default: Awesome
-
-community:
+start_project:
     type: bool
-    default: False
-    help: Do you intent to have a community around "{{ software_name }}"?
+    default: True
+    help: You're about to start a new templating project. Do you want to continue?
 
-code_of_conduct:
-    type: bool
-    default: False
-    help: Do you want to include a code of conduct for "{{ software_name }}"?
-
-contact_email:
+template_name:
     type: str
-    help: What's the contact email for the code of conduct"?
-    when: "{{ code_of_conduct == True }}"
+    help: Give a name to your template
+    default: My Template
+    when: "{{ start_project == True }}"
 
-owner:
+description:
     type: str
-    default: "Iowner"
-    help: Who owns the software? (e.g. you, or your university, etc.)
-
-copyright_holder:
-    type: str
-    default: |- 
-        {{ owner }}
-    help: Copyright holder
-
-citation:
-    type: bool
-    default: False
-    help: Do you want to create a citation file for "{{ software_name }}"?
-
-software_license:
-  default: MIT License
-  choices:
-    - Apache Software License
-    - Boost Software License 1.0 (BSL-1.0)
-    - CC0 Public Domain Dedication (CC0 1.0)
-    - European Union Public License 1.2 (EUPL-1.2)
-    - GNU Affero General Public License v3
-    - GNU General Public License v2 (GPLv2)
-    - GNU General Public License v3 (GPLv3)
-    - GNU Lesser General Public License v3 (LGPLv3)
-    - MIT License
-    - Mozilla Public License 2.0 (MPL 2.0)
-    - No License
-    - The Unlicense (Unlicense)
-    - The 3-Clause DSB License (DBS-3-Clause)
-  help: Choose a license for "{{ software_name }}" (e.g. "MIT", "GPL-3.0").
-  type: str
-
-software_purpose:
-    type: str
-    default: "The purpose of {{ software_name }} is ..."
-    help: What's the purpose of "{{ software_name}}?"
-
-programming_language:
-  type: str
-  default: submodule-python
-  choices:
-    - submodule-python
-    - submodule-r
-  help: Which is the main programing language for developing "{{ software_name }}"?
-
-package_name:
-    type: str
-    help: What name you want to use for your Python package?
-    default: "{{ software_name | lower }}"
-
-documentation:
-    type: bool
-    default: False
-    help: Do you plan to write extensive documentation for "{{ software_name }}"?
-
-documentation_type:
-    type: str
-    default: "user"
-    help: For who do you plant to write documentation for "{{ software_name }}"?
-    choices:
-        - user
-        - developer
-        - user & developer
-    when: "{{ documentation == True }}"
-
----
-# Uncoment the line below to include custome questions
-# Add custom questions to custom.yml
-
-# !include custom.yml
+    help: Provide a brief description of your template including its purpose, and for whom it is intended.
+    default: My Template Description
+    when: "{{ start_project == True }}"
