@@ -19,6 +19,7 @@ _exclude:
     - ".github"
     - ".gitignore"
     - "custom.yml"
+    - "README.md"
 
 start_project:
     type: bool
