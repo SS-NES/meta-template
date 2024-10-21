@@ -12,7 +12,7 @@ using copier.
 **Requirements**
 
 - Python 3.11 or higher
-- Copier
+- [Copier](https://copier.readthedocs.io)
 
 ### Start a templating project
 
