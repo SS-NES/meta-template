@@ -20,6 +20,7 @@ _exclude:
     - ".gitignore"
     - "custom.yml"
     - "README.md"
+    - "new_question.txt"
 
 template_name:
     type: str
