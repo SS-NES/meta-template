@@ -3,7 +3,7 @@
 # _envops:
 #   block_end_string: '%]'
 #   block_start_string: '[%'
-
+_answers_file: .meta-answers.yml
 _message_before_copy: |
   Thanks for using SS NES research software templates.
   This meta-template help template developers to create custom
