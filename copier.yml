@@ -21,6 +21,7 @@ _exclude:
     - "custom.yml"
     - "README.md"
     - "new_question.txt"
+    - "smp.exampple.json"
 
 template_name:
     type: str
