@@ -78,19 +78,11 @@ package_name:
     default: "{{ software_name | lower }}"
 
 documentation:
-    type: bool
-    default: False
-    help: Do you plan to write extensive documentation for "{{ software_name }}"?
-
-documentation_type:
-    type: str
-    default: "user"
-    help: For who do you plan to write documentation for "{{ software_name }}"?
     choices:
-        - user
-        - developer
-        - user & developer
-    when: "{{ documentation == True }}"
+    - Yes
+    _ No
+    default: No
+    help: Do you plan to write extensive documentation for "{{ software_name }}"?
 
 ---
 # Uncomment the line below to include custom questions
