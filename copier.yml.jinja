@@ -78,10 +78,8 @@ package_name:
     default: "{{ software_name | lower }}"
 
 documentation:
-    choices:
-    - Yes
-    _ No
-    default: No
+    default: False
+    type: bool
     help: Do you plan to write extensive documentation for "{{ software_name }}"?
 
 ---
