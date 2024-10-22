@@ -21,19 +21,12 @@ _exclude:
     - "custom.yml"
     - "README.md"
 
-start_project:
-    type: bool
-    default: True
-    help: You're about to start a new templating project. Do you want to continue?
-
 template_name:
     type: str
     help: Give a name to your template
     default: My Template
-    when: "{{ start_project == True }}"
 
 description:
     type: str
     help: Provide a brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
-    when: "{{ start_project == True }}"
