@@ -3,10 +3,8 @@ message: If you use this software, please cite it using these metadata.
 title: {{software_name}}
 abstract: This is my awesome research software. It does many things.
 authors:
-  - family-names: Doe
-    given-names: Jane
+  - name: {{owner}}
     orcid: ""
-  - name: "The Research Software project"
 version: x.xx.x
 date-released: "yyyy-mm-dd"
 identifiers:
