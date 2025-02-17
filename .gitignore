@@ -3,5 +3,5 @@ venv/
 
 
 # Quarto
-/.quarto/
+/quarto/.quarto/
 /quarto/_book/
