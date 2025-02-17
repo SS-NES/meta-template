@@ -8,8 +8,10 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - python-case.qmd
-    - notebook-case.qmd
+    - part: "USE CASES"
+      chapters:
+        - python-case.qmd
+        - notebook-case.qmd
     - references.qmd
 
 bibliography: references.bib
