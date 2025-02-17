@@ -1,0 +1,7 @@
+**/.DS_Store
+venv/
+
+
+# Quarto
+/quarto/.quarto/
+/quarto/_book/
