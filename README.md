@@ -24,7 +24,7 @@ copier copy https://github.com/SS-NES/meta-template.git <path/to/project-directo
 Update the generated project by changing your answers. At the root of the software project, do:
 
 ```shell
-copier update
+copier update --answers-file .meta-answers.yml
 ```
 > IMPORTANT: Before you are allow to update a project, the sofware project must be initialized as a Git repository, all files must be commited, and the status of the repository must show it is clean, i.e., no pending changes to commit.
 
