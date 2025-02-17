@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NES Software Project Template",
+    "title": "Meta Template for Research software",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\nA template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using copier.",
     "crumbs": [
       "Preface"
     ]
@@ -14,19 +14,31 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Explain wha value does the use of meta templates give to the scientific community across NL. Knuth (1984)\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "python-case.html",
+    "href": "python-case.html",
+    "title": "2  Python Packages",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Describe the Python use case for TU Delft",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "USE CASES",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Python Packages</span>"
+    ]
+  },
+  {
+    "objectID": "notebook-case.html",
+    "href": "notebook-case.html",
+    "title": "3  Jupyter Notebooks",
+    "section": "",
+    "text": "Explain the case for using Jupyter Notebooks",
+    "crumbs": [
+      "USE CASES",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Jupyter Notebooks</span>"
     ]
   },
   {
