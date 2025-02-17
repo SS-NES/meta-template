@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "NES Software Project Template"
+  author: "Manuel Garcia, Angelina Momin"
+  date: "2/17/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
