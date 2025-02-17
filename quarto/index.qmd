@@ -1,5 +1,3 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+A template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using [copier](https://copier.readthedocs.io).

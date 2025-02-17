@@ -2,13 +2,14 @@ project:
   type: book
 
 book:
-  title: "NES Software Project Template"
+  title: "Meta Template for Research software"
   author: "Manuel Garcia, Angelina Momin"
   date: "2/17/2025"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - python-case.qmd
+    - notebook-case.qmd
     - references.qmd
 
 bibliography: references.bib
