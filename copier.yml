@@ -9,10 +9,14 @@ _message_before_copy: |
   This meta-template help template developers to create custom
   templates for different purposes or programming languages, and
   maintain consistency with the best practices adopted by the
-  SS NES community.
+  SS NES community in the Netherlands.
+  
 _message_after_copy: |
   Your templating project "{{ template_name }}" has been created!
   You ready to customize it!
+
+  Considere registering your template in the SS NES template registry at:
+  https://github.com/SS-NES/meta-template
 
 _exclude:
     - ".git"
