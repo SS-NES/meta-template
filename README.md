@@ -28,6 +28,8 @@ copier update
 ```
 > IMPORTANT: Before you are allow to update a project, the sofware project must be initialized as a Git repository, all files must be commited, and the status of the repository must show it is clean, i.e., no pending changes to commit.
 
+
+
 ## Acknowledgements
 
 - This template was inspired by [Serious Scaffold Python](https://github.com/serious-scaffold/ss-python)

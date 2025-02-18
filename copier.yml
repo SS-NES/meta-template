@@ -23,11 +23,12 @@ _exclude:
     - "new_question.txt"
     - "smp.exampple.json"
     - "quarto"
+    - "!README.md"
 
 template_name:
     type: str
     help: Give a name to your template
-    default: My Template
+    default: My Template Project
 
 description:
     type: str
