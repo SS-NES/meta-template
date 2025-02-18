@@ -1,6 +1,0 @@
-# Preface {.unnumbered}
-
-Every organisation wants to produce high-quality research software by adopting common best practices, but we have to acknowledge that every organisation has practices and workflows that are only important to them. Therefore, we facilitate adopting common best practices for research software development through a highly customisable software template.
-
-A template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using [copier](https://copier.readthedocs.io).
-
