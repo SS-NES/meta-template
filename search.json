@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Meta Template for Research software",
+    "title": "Templates for Research Software",
     "section": "",
     "text": "Preface\nA template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using copier.\n\nExplain wha value does the use of meta templates give to the scientific community across NL.",
     "crumbs": [
@@ -23,12 +23,12 @@
   {
     "objectID": "project-template.html",
     "href": "project-template.html",
-    "title": "2  Templating Project",
+    "title": "2  Templating Projects",
     "section": "",
     "text": "How to use the meta template to set up a templating project",
     "crumbs": [
       "TEMPLATES",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Templating Project</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Templating Projects</span>"
     ]
   },
   {
