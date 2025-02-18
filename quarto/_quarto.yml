@@ -7,11 +7,15 @@ book:
   date: "2/17/2025"
   chapters:
     - index.qmd
-    - intro.qmd
+    - part: "TEMPLATES"
+      chapters:
+        - meta-template.qmd
+        - project-template.qmd
     - part: "USE CASES"
       chapters:
         - python-case.qmd
         - notebook-case.qmd
+        - r-case.qmd
     - references.qmd
 
 bibliography: references.bib

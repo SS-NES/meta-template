@@ -22,6 +22,7 @@ _exclude:
     - "README.md"
     - "new_question.txt"
     - "smp.exampple.json"
+    - "quarto"
 
 template_name:
     type: str
