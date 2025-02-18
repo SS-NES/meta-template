@@ -1,4 +1,0 @@
-code_of_conduct:
-    type: bool
-    default: False
-    help: Do you want to include a code of conduct for "{{ software_name }}"?
