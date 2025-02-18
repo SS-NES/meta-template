@@ -31,10 +31,15 @@ _exclude:
 
 template_name:
     type: str
-    help: Give a name to your template
+    help: A name to your template project.
     default: My Template Project
 
 description:
     type: str
-    help: Provide a brief description of your template including its purpose, and for whom it is intended.
+    help: A brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
+
+code_of_conduct:
+    type: bool
+    help: Do you want to include a code of conduct in your template?
+    default: False
