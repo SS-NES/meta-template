@@ -1,3 +1,21 @@
+_message_before_copy: |
+  Thanks for using software project template for research software.
+  This templating was generated using the SS NES Meta Template.
+  For more information, visit https://ss-nes.github.io/meta-template/
+_message_after_copy: |
+  Your project "{{ software_name }}" has been created successfully!
+
+# To be exluded when rendering templates for software projects
+_exclude:
+    - ".git"
+    - ".github"
+    - ".gitignore"
+    - "includes"
+    - "copier.yml"
+    - "meta"
+    - "project"
+    - ".meta-answers.yml"
+
 ---
 # Common question across templates
 !include meta/common.yml
