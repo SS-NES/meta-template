@@ -9,10 +9,14 @@ _message_before_copy: |
   This meta-template help template developers to create custom
   templates for different purposes or programming languages, and
   maintain consistency with the best practices adopted by the
-  SS NES community.
+  SS NES community in the Netherlands.
+  
 _message_after_copy: |
   Your templating project "{{ template_name }}" has been created!
-  You ready to add custom successfully!
+  You ready to customize it!
+
+  Considere registering your template in the SS NES template registry at:
+  https://github.com/SS-NES/meta-template
 
 _exclude:
     - ".git"
@@ -23,13 +27,19 @@ _exclude:
     - "new_question.txt"
     - "smp.exampple.json"
     - "quarto"
+    - "!README.md"
 
 template_name:
     type: str
-    help: Give a name to your template
-    default: My Template
+    help: A name to your template project.
+    default: My Template Project
 
 description:
     type: str
-    help: Provide a brief description of your template including its purpose, and for whom it is intended.
+    help: A brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
+
+code_of_conduct:
+    type: bool
+    help: Do you want to include a code of conduct in your template?
+    default: False
