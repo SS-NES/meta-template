@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Meta Template for Research software"
+  title: "Templates for Research Software"
   author: "Manuel Garcia, Angelina Momin"
   date: "2/17/2025"
   chapters:
