@@ -44,3 +44,9 @@ code_of_conduct:
     type: bool
     help: Do you want to include a code of conduct in your template?
     default: False
+
+contact_email:
+    type: str
+    help: An email address to contact the enforcement of the code of conduct.
+    default: ""
+    when: "{{code_of_conduct}}"
