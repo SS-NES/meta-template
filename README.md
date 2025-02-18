@@ -61,7 +61,7 @@ Changes and enhancements to the *meta-template* can be easily be integrated into
 Updating will sync a *templating project* with the lates version of the *meta-template*. Thefore, applying changes to the meta-template into templaring project. Copier uses Git tags on the meta-template to determine the latest version. 
 
 ```shell
-copier update
+copier update --answers-file .meta-answers.yml
 ```
 
 > [!IMPORTANT] 
