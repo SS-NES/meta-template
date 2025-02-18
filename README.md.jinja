@@ -1,39 +1,39 @@
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # {{template_name}}
 
 {{description}}
 
-## Installation
+## How to Use
 
-Use [pipx](https://pipx.pypa.io/stable/installation/) to install `copier`, and
-render the template.
+1. Use [pipx](https://pipx.pypa.io/stable/installation/) to install `copier`, and render the template.
 
 ```bash
 # intalling copier
 pipx install copier
 ```
 
-## Usage
+2. Start a new software project using this template:
 
 ```python
-# start a software project with this template
-copier copy https://github.com/SS-NES/<repo>.git <path/to/project-directory>
+copier copy https://github.com/<account>/<repo>.git <path/to/project-directory>
 ```
+
+3. Inialize a Git repository in your templating project
 
 ```shell
-# Changes to the meta template can be synced.  
-# At the root of the software project, do:
-copier update --answers-file .meta-answers.yml
+cd <path/to/project-directory>
+git init
+git add . 
+git commit -m 'initial commit'
 ```
-> IMPORTANT: To enable updates, the sofware project must be a Git repository, and the status must show it is clean, i.e., no pending changes to commit.
 
 ## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Read our [guidelines](CONTRIBUTING.md) to know how to be part of the development of this template. 
 
 ## License
 
-[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
+
+This templae is freely available under an [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Acknowledgements
 
