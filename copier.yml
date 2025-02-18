@@ -12,7 +12,7 @@ _message_before_copy: |
   SS NES community.
 _message_after_copy: |
   Your templating project "{{ template_name }}" has been created!
-  You ready to add custom successfully!
+  You ready to customize it!
 
 _exclude:
     - ".git"
