@@ -1,8 +1,3 @@
-
-# configs
-# _envops:
-#   block_end_string: '%]'
-#   block_start_string: '[%'
 _answers_file: .meta-answers.yml
 _message_before_copy: |
   Thanks for using SS NES research software templates.
@@ -18,14 +13,12 @@ _message_after_copy: |
   Considere registering your template in the SS NES template registry at:
   https://github.com/SS-NES/meta-template
 
+# To be excluded when rendering templating projects
 _exclude:
     - ".git"
     - ".github"
     - ".gitignore"
-    - "custom.yml"
     - "README.md"
-    - "new_question.txt"
-    - "smp.exampple.json"
     - "docs"
     - "REGISTRY.md"
     - "!README.md"

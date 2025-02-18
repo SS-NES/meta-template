@@ -4,18 +4,19 @@ _message_before_copy: |
   For more information, visit https://ss-nes.github.io/meta-template/
 _message_after_copy: |
   Your project "{{ software_name }}" has been created successfully!
-  
+
+# To be exluded when rendering templates for software projects
 _exclude:
     - ".git"
     - ".github"
     - ".gitignore"
-    - "custom.yml"
     - "includes"
     - "copier.yml"
-    - "common.yml"
-    - "custom.yml"
+    - "meta"
+    - "project"
     - ".meta-answers.yml"
 
+# Question and settings used across multiple templating projects
 software_name:
     type: str
     help: What's the name of your software?
