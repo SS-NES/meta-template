@@ -4,41 +4,64 @@
     "href": "index.html",
     "title": "Meta Template for Research software",
     "section": "",
-    "text": "Preface\nA template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using copier.",
+    "text": "Preface\nA template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using copier.\n\nExplain wha value does the use of meta templates give to the scientific community across NL.",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "meta-template.html",
+    "href": "meta-template.html",
+    "title": "1  Meta Template",
     "section": "",
-    "text": "Explain wha value does the use of meta templates give to the scientific community across NL. Knuth (1984)\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "What is the meta template",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "TEMPLATES",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Meta Template</span>"
+    ]
+  },
+  {
+    "objectID": "project-template.html",
+    "href": "project-template.html",
+    "title": "2  Templating Project",
+    "section": "",
+    "text": "How to use the meta template to set up a templating project",
+    "crumbs": [
+      "TEMPLATES",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Templating Project</span>"
     ]
   },
   {
     "objectID": "python-case.html",
     "href": "python-case.html",
-    "title": "2  Python Packages",
+    "title": "3  Python Package",
     "section": "",
-    "text": "Describe the Python use case for TU Delft",
+    "text": "Describe the Python use case for TU Delft. Knuth (1984)\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "USE CASES",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Python Packages</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Python Package</span>"
     ]
   },
   {
     "objectID": "notebook-case.html",
     "href": "notebook-case.html",
-    "title": "3  Jupyter Notebooks",
+    "title": "4  Jupyter Notebooks",
     "section": "",
     "text": "Explain the case for using Jupyter Notebooks",
     "crumbs": [
       "USE CASES",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Jupyter Notebooks</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Jupyter Notebooks</span>"
+    ]
+  },
+  {
+    "objectID": "r-case.html",
+    "href": "r-case.html",
+    "title": "5  R Package",
+    "section": "",
+    "text": "Describe the R use case",
+    "crumbs": [
+      "USE CASES",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>R Package</span>"
     ]
   },
   {
