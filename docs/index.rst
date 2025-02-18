@@ -12,9 +12,13 @@ A template to initialize templating projects that comply with best practices on 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    quick-start
+
+.. toctree::
+   :maxdepth: 2
+   :caption: TEMPLATES
+
    meta-template
    project-template
 
