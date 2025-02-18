@@ -3,8 +3,7 @@
 # Meta Template for Research software
 
 A template to initialize **templating projects** that comply with
-best practices on sustainable software in Natural and Engineering Science.  This template containts boilerplate for developing custom research software templates
-using copier.
+best practices on sustainable software in Natural and Engineering Science.  This template containts boilerplate code for developing custom research software templates using [Copier](https://copier.readthedocs.io).
 
 ## How to Use
 
