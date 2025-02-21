@@ -33,9 +33,9 @@ the following modifications were made:
 - ``data/`` folder – Stores datasets used in analysis.
 
 - ``notebooks/`` folder – Contains a template notebook with placeholders for project name,
-project owner and project purpose that are dynamically 
-adjusted based on user input during project creation. 
-The template notebook has sections such as data preprocessing and data analysis.
+  project owner and project purpose that are dynamically 
+  adjusted based on user input during project creation. 
+  The template notebook has sections such as data preprocessing and data analysis.
 
 - ``tests/`` folder – Organizes and runs validation tests on code or data processing steps.
 
