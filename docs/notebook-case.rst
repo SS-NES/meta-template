@@ -1,6 +1,8 @@
 Jupyter Notebook Template for Data Analysis Projects
 ====================================================
 
+*Link to the template:* `click here <https://github.com/SS-NES/notebook-template>`_
+
 The Jupyter notebook template was generated using the meta template 
 to streamline the adoption of best software development practices in the NES domain.
 
@@ -29,7 +31,12 @@ To align with typical Jupyter-based research workflows,
 the following modifications were made:
 
 - ``data/`` folder – Stores datasets used in analysis.
-- ``notebooks/`` folder – Contains a template notebook with placeholders that dynamically adjust based on user input during project creation.
+
+- ``notebooks/`` folder – Contains a template notebook with placeholders for project name,
+project owner and project purpose that are dynamically 
+adjusted based on user input during project creation. 
+The template notebook has sections such as data preprocessing and data analysis.
+
 - ``tests/`` folder – Organizes and runs validation tests on code or data processing steps.
 
 This ensures a structured, reproducible, and well-documented environment for research software development.
