@@ -1,6 +1,8 @@
 R Project Template
 ==================
 
+*Link to the template repository:* `click here <https://github.com/SS-NES/R-template>`_
+
 The R project template was generated using the meta template 
 to streamline the adoption of best software development practices in the NES domain.
 

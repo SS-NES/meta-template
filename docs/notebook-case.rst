@@ -1,7 +1,7 @@
 Jupyter Notebook Template for Data Analysis Projects
 ====================================================
 
-*Link to the template:* `click here <https://github.com/SS-NES/notebook-template>`_
+*Link to the template repository:* `click here <https://github.com/SS-NES/notebook-template>`_
 
 The Jupyter notebook template was generated using the meta template 
 to streamline the adoption of best software development practices in the NES domain.
