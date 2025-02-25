@@ -1,0 +1,9 @@
+profiles:
+    business: 
+    - q1
+    - q5
+    education:
+    - q2
+    - q3
+    - q4
+  
