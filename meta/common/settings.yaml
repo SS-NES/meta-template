@@ -1,3 +1,6 @@
+
+_subditectory: template
+
 _skip_if_exists:
   - LICENSE
   - CHANGELOG.md
@@ -8,6 +11,5 @@ _skip_if_exists:
 # default values
 defaults:
   software_name: Awesome
-  # software_purpose: "The purpose of {{ software_name }} is ..."
-  # owner: "Iowner"
+
 
