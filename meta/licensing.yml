@@ -1,14 +1,11 @@
-owner:
-    type: str
-    default: "Iowner"
-    help: Who owns the software? (e.g. you, or your university, etc.)
+---
 
 copyright_holder:
     type: str
     default: |- 
         {{ owner }}
     help: Copyright holder
-    
+
 software_license:
   default: MIT License
   choices:
