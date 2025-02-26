@@ -1,5 +1,0 @@
-# Include questions and settings your 'template'
-
-CONTINUE HERE:
-TypeError: argument of type 'NoneType' is not iterable
-Check if the reason for the error is that this file is empty.
