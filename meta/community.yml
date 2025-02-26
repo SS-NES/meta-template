@@ -1,3 +1,5 @@
+---
+
 community:
     type: bool
     default: False
