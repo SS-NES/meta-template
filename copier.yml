@@ -3,6 +3,8 @@
 # generation of a new template project.
 # These questions are not part of the template project itself.
 _answers_file: .meta-answers.yml
+
+_subdirectory: meta
 _message_before_copy: |
   Thanks for using SS NES research software templates.
   This meta-template help template developers to create custom
@@ -18,14 +20,9 @@ _message_after_copy: |
   https://github.com/SS-NES/meta-template
 
 # To be excluded when generating templating projects
-_exclude:
-    - ".git"
-    - ".github"
-    - ".gitignore"
-    - "README.md"
-    - "docs"
-    - "REGISTRY.md"
-    - "!README.md"
+# _exclude:
+#     - ".git"
+#     - ".github"
 
 template_name:
     type: str
