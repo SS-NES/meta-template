@@ -1,9 +1,10 @@
-
-# configs
-# _envops:
-#   block_end_string: '%]'
-#   block_start_string: '[%'
+# Description: Configuration file for the Copier template generator.
+# This file contains the questions and settings relevant to the 
+# generation of a new template project.
+# These questions are not part of the template project itself.
 _answers_file: .meta-answers.yml
+
+_subdirectory: meta
 _message_before_copy: |
   Thanks for using SS NES research software templates.
   This meta-template help template developers to create custom
@@ -18,17 +19,10 @@ _message_after_copy: |
   Considere registering your template in the SS NES template registry at:
   https://github.com/SS-NES/meta-template
 
-_exclude:
-    - ".git"
-    - ".github"
-    - ".gitignore"
-    - "custom.yml"
-    - "README.md"
-    - "new_question.txt"
-    - "smp.exampple.json"
-    - "docs"
-    - "REGISTRY.md"
-    - "!README.md"
+# To be excluded when generating templating projects
+# _exclude:
+#     - ".git"
+#     - ".github"
 
 template_name:
     type: str
@@ -40,13 +34,3 @@ description:
     help: A brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
 
-code_of_conduct:
-    type: bool
-    help: Do you want to include a code of conduct in your template?
-    default: False
-
-contact_email:
-    type: str
-    help: An email address to contact the enforcement of the code of conduct.
-    default: ""
-    when: "{{code_of_conduct}}"

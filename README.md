@@ -50,7 +50,7 @@ copier copy https://github.com/foo/<templating-project>.git <path/to/new-project
 > [!NOTE]
 > By default Copier will use versioning tags to copy the latest release of a template. [Read more](https://copier.readthedocs.io/en/stable/generating/#templates-versions). 
 > To generate template with the latest saved changes of a template use: 
-> ```copy copy --vcs-ref HEAD <path/to/templating-project> <path/to/new-project/>```
+> ```copier copy --vcs-ref HEAD <path/to/templating-project> <path/to/new-project/>```
 
 ## Maintainance
 
