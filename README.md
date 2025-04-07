@@ -23,18 +23,17 @@ Because every organisation wants to produce high-quality research software by ad
 - **Software Template:**  a template for research software projects generated using the *meta template*. It may contain custome features for a particular type of software project. For example, features specific to programming languages  (Python, R, Julia, etc.) or features specific to relevant use cases (Jupyter notebooks, organization A, organization B).
 - **Software Project:** the software schaffolding generated using a *software template*. It contains common features (from the *meta template*) and custom features (from its parent *software tempalte*).
 
-## How to Use
+## How to Use it
 
 1. Install [Copier](https://copier.readthedocs.io) into your development environment.
 
-2. Start a new templating project.
+2. Start a new *software template*, rendered the latest version of this repository. This will generate boiler plate code that can be adopted for your particular uses case.
 
 ```shell
 copier copy https://github.com/SS-NES/meta-template.git <path/to/templating-project>
 ```
-    This will generate boiler plate code that can be adopted for a particular uses case.
 
-3. Inialize a Git repository in your templating project
+3. Make your *software template* a Git repository. Copier uses Git to version software tempaltes, therefore, a directory containing a *software template* must be a Git repository. 
 
 ```shell
 cd <path/to/project-directory>
