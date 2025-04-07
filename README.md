@@ -1,8 +1,9 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier)
 
-# Meta Template for Research software
+# Research Software Meta Template
 
-A template to initialize **templating projects** that comply with best practices on sustainable software in Natural and Engineering Science. It provides a way to align best practices and reduce maintainance efforts across 
+A toolkit to start **software templates** for research software and adopt best practices on sustainable software for Natural and Engineering Sciences. It provides a way to align best practices and reduce maintainance efforts across 
 organisations, while allowing organisation to customize software templates to their needs. 
 
 ## Why?
@@ -15,6 +16,12 @@ Because every organisation wants to produce high-quality research software by ad
 - Reduce maintainabily. Enhancements to the meta-template can be incoorporated with ease in templating projects which reduces the time maintainers of templating projects have to spend in updating their templates.
 - Flexibility. Generate templating projects for any programming languates and customize them for every use case.  
 - A curated list of open source licenses for your templating projects.
+
+## Key Concepts
+
+- **Meta Template:** a template to start a software templating project. This repository. It contains common features that are shared among software templating projects. 
+- **Software Template:**  a template for research software projects generated using the *meta template*. It may contain custome features for a particular type of software project. For example, features specific to programming languages  (Python, R, Julia, etc.) or features specific to relevant use cases (Jupyter notebooks, organization A, organization B).
+- **Software Project:** the software schaffolding generated using a *software template*. It contains common features (from the *meta template*) and custom features (from its parent *software tempalte*).
 
 ## How to Use
 
