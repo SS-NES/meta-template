@@ -43,14 +43,14 @@ git commit -m 'initial commit'
 ```
 4. Customize your template project. Consult the [Copier Documentation](https://copier.readthedocs.io/en/stable/creating/) and the [Jinja2 Documentation](https://jinja.palletsprojects.com/en/stable/templates/).
 
-5. Generate project templates using your templating project.
+5. To test if your software template is producing the results you want, your can render it into a *software project*. Use the `--vsc-ref HEAD` option to rendere all the changes you have made. 
 
 ```shell
 # from a local Git repository
-copier copy <path/to/templating-project> <path/to/new-project/>
+copier copy --vcs-ref HEAD <path/to/your-software-template> <path/to/new-project/>
 
 # from a remote Git repository
-copier copy https://github.com/foo/<templating-project>.git <path/to/new-project/>
+copier copy https://github.com/foo/<your-template>.git <path/to/new-project/>
 ```
 
 > [!NOTE]
