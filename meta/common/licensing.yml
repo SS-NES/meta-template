@@ -8,7 +8,7 @@ copyright_holder:
 
 copyright_year:
     type: int
-    default: "{{ now().year }}"
+    default: "{{ '%Y' | strftime }}"
     help: Copyright year
 
 software_license:
