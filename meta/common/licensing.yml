@@ -6,6 +6,11 @@ copyright_holder:
         {{ owner }}
     help: Copyright holder
 
+copyright_year:
+    type: int
+    default: "{{ now().year }}"
+    help: Copyright year
+
 software_license:
   default: MIT License
   choices:
