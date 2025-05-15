@@ -34,3 +34,12 @@ description:
     help: A brief description of your template including its purpose, and for whom it is intended.
     default: My Template Description
 
+maintainer_info:
+    type: bool
+    help: Do you want to provide maintainer's information for this template?
+    default: true
+
+maintainer_email:
+    type: str
+    help: Email address of the maintainer of this template.
+    when: maintainer_info
