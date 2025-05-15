@@ -37,9 +37,9 @@ description:
 maintainer_info:
     type: bool
     help: Do you want to provide maintainer's information for this template?
-    default: true
+    default: Yes
 
 maintainer_email:
     type: str
     help: Email address of the maintainer of this template.
-    when: maintainer_info
+    when: "{{ maintainer_info == true }}"
