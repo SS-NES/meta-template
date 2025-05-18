@@ -50,12 +50,9 @@ git add .
 git commit -m 'initial commit'
 ```
 
+1. Customize your template project. Consult the [Copier Documentation](https://copier.readthedocs.io/en/stable/creating/) and the [Jinja2 Documentation](https://jinja.palletsprojects.com/en/stable/templates/).
 
-CONTINUE HERES
-
-4. Customize your template project. Consult the [Copier Documentation](https://copier.readthedocs.io/en/stable/creating/) and the [Jinja2 Documentation](https://jinja.palletsprojects.com/en/stable/templates/).
-
-5. To test if your software template is producing the results you want, your can render it into a *software project*. Use the `--vsc-ref HEAD` option to rendere all the changes you have made. 
+2. To test if your software template is producing the results you want, your can render it into a *software project*. Use the `--vsc-ref HEAD` option to rendere all the changes you have made. 
 
 ```shell
 # from a local Git repository
