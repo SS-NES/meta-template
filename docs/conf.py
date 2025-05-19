@@ -16,6 +16,7 @@ release = '2.0.0'
 
 extensions = [
     'sphinx_rtd_theme',
+    'sphinx_copybutton',
 ]
 
 templates_path = ['_templates']
