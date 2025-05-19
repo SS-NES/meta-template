@@ -5,7 +5,26 @@
     color:#343131;     
 }
 
-.img.logo {
-    width: 20%;
-    height: auto;
+
+.wy-nav-top a {
+  color:#343131; 
+  font-weight:700
+}
+
+.wy-nav-top i {
+  font-size:30px;
+  color: #343131;
+  float:left;
+  cursor:pointer;
+  padding-top:inherit
+}
+
+img.logo {
+  display:block;
+  margin:0 auto;
+  height:auto;
+  width:60%;
+  border-radius:0;
+  max-width:100%;
+  background:transparent
 }
