@@ -1,4 +1,4 @@
-# Research Software Meta Template
+# Meta-Template for Research Software
 
 A tool that helps **template creators** to create **software templates** for research software, and adopt best practices on sustainable software for Natural and Engineering Sciences. It provides a way to align best practices and reduce maintainance efforts across organisations, while allowing organisation to customize software templates to their needs. 
 
