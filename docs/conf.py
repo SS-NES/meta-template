@@ -33,5 +33,5 @@ html_style = 'css/custom.css'
 html_theme_options = {
     # 'logo_only': True,
     'style_external_links': True,
-    'style_nav_header_background': '#f8f9fa',
+    'style_nav_header_background': '#f0f7fa',
 }
