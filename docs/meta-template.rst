@@ -1,7 +1,17 @@
-Meta Template
-==============
+The Meta-Template
+===================
 
-A tool that helps **template creators** to create **software templates** for research software, and adopt best practices on sustainable software for Natural and Engineering Sciences. It provides a way to align best practices and reduce maintenance efforts across organisations, while allowing organisation to customize software templates to their needs.
+A tool that helps **template creators** to create **software templates** for research software and adopt best practices on sustainable software for Natural and Engineering Sciences. 
+It provides a way to align best practices and reduce maintenance efforts across organisations, while allowing organisation to customize software templates to their needs.
+
+Research organisations want to produce high-quality research software by adopting common best practices, 
+but we have to acknowledge that every organisation has practices and workflows that are only important to them. 
+Therefore, we facilitate adopting common best practices for research software development through a highly 
+customisable tool that allows organisations to create their own software templates, 
+while aligning with the best practices of the Natural and Engineering Sciences community in the Netherlands.
+
+The *meta-template* offers a tool for developing custom research software templates using `copier <https://copier.readthedocs.io>`_.
+*Software templates* generated using the *meta-template*  an easily aligh and comply with best practices on sustainable software in Natural and Engineering Science. 
 
 Features
 ----------
@@ -20,4 +30,12 @@ Key Concepts
 - **Software Project:** the software schaffolding generated using a *software template*. It contains files, directories and scaffolding code to start developing research software. 
 - **Template Creator:** a person or team that creates a *software template* using the *meta-template*. Template creators are responsible for maintaining the software template and keeping it up to date with the latest best practices provided by the **meta-template**.
 - **Template User:** a person or team that uses a *software template* to start a new  research software project. Template users decide when to update their research software projects with the latest best practices provided by a *software template*.
+
+
+Structure
+------------
+
+
+Describe the structure of common and custuom components in the meta-template.
+
 
