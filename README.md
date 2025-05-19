@@ -1,39 +1,47 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier)
+# Meta-Template for Research Software
 
-# Research Software Meta Template
+A tool that helps **template creators** to create **software templates** for research software, and adopt best practices on sustainable software for Natural and Engineering Sciences. It provides a way to align best practices and reduce maintainance efforts across organisations, while allowing organisation to customize software templates to their needs. 
 
-A toolkit to start **software templates** for research software and adopt best practices on sustainable software for Natural and Engineering Sciences. It provides a way to align best practices and reduce maintainance efforts across 
-organisations, while allowing organisation to customize software templates to their needs. 
+If you came here looking for a template to start your own research software project, you check out the [Software Template Registry](REGISTRY.md) for a list of software templates that are using the *meta-template*.
+
+| [FAIR-Software Recommendations](https://fair-software.nl) | Badges|
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1. Code Repository | [![GitHub Badge](https://img.shields.io/github/v/release/SS-NES/meta-template?color=blue)](https://github.com/SS-NES/meta-template/releases/latest) |
+| 2. License |  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
+| 3. Community Registry | [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier)|
+| 4. Enable Citation  |  |
 
 ## Why?
 
-Because every organisation wants to produce high-quality research software by adopting common best practices, and we acknowledge that every organisation has practices and workflows that are only important to them. Therefore, we facilitate adopting common best practices for research software development through a highly customisable software template.
+Because research organisations can produce high-quality research software by adopting common best practices, and we acknowledge that every organisation has practices and workflows that are only important to them. Therefore, we facilitate the adopting  of common best practices for research software development through a highly customisable tool that allows organisations to create their own software templates, while aligning with the best practices of the Natural and Engineering Sciences community in the Netherlands.
 
 ## Features
 
 - Federation of best practices for research software project. Align with the best practice for research software development of the Natural and Engineering Science community in the Netherlands.
-- Reduce maintainabily. Enhancements to the meta-template can be incoorporated with ease in templating projects which reduces the time maintainers of templating projects have to spend in updating their templates.
+- Reduce maintainabily. Enhancements to the meta-template can be incoorporated with ease in templating projects which reduces the time *template creators* need to maintain and updater templating projects.
 - Flexibility. Generate templating projects for any programming languates and customize them for every use case.  
 - A curated list of open source licenses for your templating projects.
 
 ## Key Concepts
 
 - **Meta Template:** a template to start a software templating project. This repository. It contains common features that are shared among software templating projects. 
-- **Software Template:**  a template for research software projects generated using the *meta template*. It may contain custome features for a particular type of software project. For example, features specific to programming languages  (Python, R, Julia, etc.) or features specific to relevant use cases (Jupyter notebooks, organization A, organization B).
-- **Software Project:** the software schaffolding generated using a *software template*. It contains common features (from the *meta template*) and custom features (from its parent *software tempalte*).
+- **Software Template:**  a template for research software projects generated using the *meta template*. It may contain common and custom features for a particular type of software project. For example, features specific to programming languages  (Python, R, Julia, etc.) or features specific to relevant use cases (Jupyter notebooks, organization A, organization B).
+- **Software Project:** the software schaffolding generated using a *software template*. It contains files, directories and scaffolding code to start developing research software. 
+- **Template Creator:** a person or team that creates a *software template* using the *meta-template*. Template creators are responsible for maintaining the software template and keeping it up to date with the latest best practices provided by the **meta-template**.
+- **Template User:** a person or team that uses a *software template* to start a new  research software project. Template users decide when to update their research software projects with the latest best practices provided by a *software template*.
 
-## How to Use it
+## How to Create a Software Template
+To create a *software template* using the *meta-template*, you need to follow these steps:
 
 1. Install [Copier](https://copier.readthedocs.io) into your development environment.
 
-2. Start a new *software template*, rendered the latest version of this repository. This will generate boiler plate code that can be adopted for your particular uses case.
+2. Start a new *software template* by rendering the latest version of this repository. This will generate boiler plate code that can be adapted for your particular use case.
 
 ```shell
 copier copy https://github.com/SS-NES/meta-template.git <path/to/templating-project>
 ```
 
-3. Make your *software template* a Git repository. Copier uses Git to version software tempaltes, therefore, a directory containing a *software template* must be a Git repository. 
+3. Make your *software template* a Git repository. Copier uses Git to track update, therefore, a directory containing a *software template* must be a Git repository. 
 
 ```shell
 cd <path/to/project-directory>
@@ -41,9 +49,10 @@ git init
 git add . 
 git commit -m 'initial commit'
 ```
-4. Customize your template project. Consult the [Copier Documentation](https://copier.readthedocs.io/en/stable/creating/) and the [Jinja2 Documentation](https://jinja.palletsprojects.com/en/stable/templates/).
 
-5. To test if your software template is producing the results you want, your can render it into a *software project*. Use the `--vsc-ref HEAD` option to rendere all the changes you have made. 
+1. Customize your template project. Consult the [Copier Documentation](https://copier.readthedocs.io/en/stable/creating/) and the [Jinja2 Documentation](https://jinja.palletsprojects.com/en/stable/templates/).
+
+2. To test if your software template is producing the results you want, your can render it into a *software project*. Use the `--vsc-ref HEAD` option to rendere all the changes you have made. 
 
 ```shell
 # from a local Git repository
@@ -85,4 +94,8 @@ You can contribute to this initiative in two ways:
 
 ## Acknowledgements
 
-- This template was inspired by [Serious Scaffold Python](https://github.com/serious-scaffold/ss-python)
+This software was developed as part of the TDCC-NES Bottleneck Project "`Best
+Practices for Sustainable Software [SS-NES](https://tdcc.nl/projects/project-initiatives-nes/tdcc-nes-bottleneck-projects/best-practices-for-sustainable-software) funded by the Thematic Digital
+Competence Centre [TDCC](https://tdcc.nl/) for the Natural & Engineering Sciences [NES](https://tdcc.nl/about-tddc/nes).
+
+Some features in this software template were inspired by [Serious Scaffold Python](https://github.com/serious-scaffold/ss-python).

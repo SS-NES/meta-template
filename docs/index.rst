@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Meta Template documentation
-===========================
+Meta-Template for Research Software
+=================================================
 
-Every organisation wants to produce high-quality research software by adopting common best practices, but we have to acknowledge that every organisation has practices and workflows that are only important to them. Therefore, we facilitate adopting common best practices for research software development through a highly customisable software template.
+A tool that helps **template creators** to create **software templates** for research software, and adopt best practices on sustainable software for Natural and Engineering Sciences. 
+It provides a way to align best practices and reduce maintainance efforts across organisations, while allowing organisation to customize software templates to their needs. 
 
-A template to initialize templating projects that comply with best practices on sustainable software in Natural and Engineering Science. This template containts boilerplate for developing custom research software templates using [copier](https://copier.readthedocs.io).
 
 .. toctree::
    :maxdepth: 2
@@ -17,14 +17,14 @@ A template to initialize templating projects that comply with best practices on 
 
 .. toctree::
    :maxdepth: 2
-   :caption: TEMPLATES
+   :caption: Templating Documentation
 
    meta-template
    project-template
 
 .. toctree::
    :maxdepth: 2
-   :caption: USE CASES
+   :caption: Software Templates
 
    python-case
    notebook-case
