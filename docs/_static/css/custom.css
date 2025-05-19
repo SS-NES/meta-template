@@ -1,0 +1,11 @@
+@import 'theme.css';
+
+.wy-side-nav-search .wy-dropdown>a,
+.wy-side-nav-search>a {
+    color:#343131;     
+}
+
+.img.logo {
+    width: 20%;
+    height: auto;
+}
