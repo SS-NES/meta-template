@@ -31,7 +31,6 @@ html_logo = "_static/img/meta-logo.png"
 html_style = 'css/custom.css'
 
 html_theme_options = {
-    # 'logo_only': True,
     'style_external_links': True,
     'style_nav_header_background': '#f0f7fa',
 }
