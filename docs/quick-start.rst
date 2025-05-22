@@ -19,12 +19,12 @@ Getting Started
 
 .. code-block:: bash
 
-   copier gh:research-software/meta-template <my-software-template>
+   copier copy gh:SS-NES/meta-template.git <my-software-template>
    
 
 Replace `my-software-template` with the name of your new software template project.
 
-2. Navigate to your new software template project directory:
+1. Navigate to your new software template project directory:
 
 .. code-block:: bash
    

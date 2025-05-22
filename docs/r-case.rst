@@ -7,7 +7,7 @@ The R project template was generated using the meta template
 to streamline the adoption of best software development practices in the NES domain.
 
 By leveraging the meta template, essential files that help a project adhere to the FAIR principles, 
-such as license files, ``CODEOFCONDUCT.md``, ``README.md``, 
+such as license files, ``CODE_OF_CONDUCT.md``, ``README.md``, 
 and others were automatically included, eliminating the need for manual setup. 
 
 This also improves maintainability as updates in the meta template, such as changes in license files, 
