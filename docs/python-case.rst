@@ -12,7 +12,7 @@ such as license files, ``CODE_OF_CONDUCT.md``, ``README.md``,
 and others were automatically included, eliminating the need for manual setup.
 
 This also improves maintainability as updates in the meta template, such as changes in license files, 
-can easily be synced using the following command:
+can easily be updated using the following command:
 
 .. code-block:: bash
 
@@ -39,3 +39,23 @@ This template is designed so that researcher at TU Delft can make their software
 .. - ``tests/`` folder – Organizes and runs validation tests on code or data processing steps.
 
 .. This ensures a structured, reproducible, and well-documented environment for research software development.
+
+
+How to Use
+----------------
+
+.. code-block:: bash
+
+   # Create a new project using the fair-code template
+   copier copy gh:manuGil/fair-code.git <my-software-project>
+
+   # Navigate to the project directory
+   cd <my-software-project>
+
+   # initialize a git repository
+   git init
+   git add .
+   git commit -m "Initial commit of my software project"
+
+   # start coding!
+
