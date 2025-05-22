@@ -35,7 +35,40 @@ Key Concepts
 Structure
 ------------
 
+The *meta-template*  repository contians **common** and **custom** features for software templates. The common features are shared among all software templates and are used to generate the software scaffolding. The custom features are specific to a particular software template and are used to customize the software scaffolding for a particular use case (e.g. institution-specific).
 
-Describe the structure of common and custuom components in the meta-template.
+.. code-block:: text
+
+    meta-template/
+    ├── meta
+    │   ├── common                          <- Common Questions/Options 
+    │   │   ├── citation.yml
+    │   │   ├── community.yml
+    │   │   ├── licensing.yml
+    │   │   ├── messages.yml
+    │   │   ├── settings.yaml
+    │   │   └── software.yml
+    │   ├── custom                          <- Institution-specific Questions/Options
+    │   │   └── customize.yml
+    │   ├── template                        <- Common templating elements
+    │   │   ├── includes
+    │   │   ├── tests
+    │   │   ├── README.md.jinja
+    │   │   ├── {{".gitignore.jinja"}}
+    │   │   ├── {{"{% if citation %}CITATION.cff{% endif %}.jinja"}}
+    │   │   ├── {{"{% if community %}CONTRIBUTING.md{% endif %}.jinja"}}
+    │   │   ├── {{"{{_copier_conf.answers_file}}.jinja"}}
+    │   │   ├── {{"CHANGELOG.md.jinja"}}
+    │   │   ├── {{"CODE_OF_CONDUCT.md.jinja"}}
+    │   │   └── {{"{% if software_license != 'No License' %}LICENSE{% endif %}.jinja"}}
+    │   ├── CONTRIBUTING.md.jinja
+    │   ├── README.md.jinja
+    │   ├── copier.yml.jinja
+    │   └── {{_copier_conf.answers_file}}.jinja
+    ├── LICENSE
+    ├── README.md
+    ├── REGISTRY.md
+    └── copier.yml                          <- Main copier configuration
+
 
 
