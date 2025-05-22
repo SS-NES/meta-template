@@ -35,7 +35,7 @@ Key Concepts
 Structure
 ------------
 
-The *meta-template*  repository contians **common** and **custom** features for software templates. The common features are shared among all software templates and are used to generate the software scaffolding. The custom features are specific to a particular software template and are used to customize the software scaffolding for a particular use case (e.g. institution-specific).
+The *meta-template*  repository contians **common** and **custom** features for software templates. The common features are shared among all software templates and are used to generate the software scaffolding. The custom features are specific to a particular software template and are used to customize the software scaffolding for a particular use case (e.g. institution-specific). Template creators *adopt* common features from the meta-template, and *add* custom features to institution-specific software templates.
 
 .. code-block:: text
 
