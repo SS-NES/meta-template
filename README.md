@@ -38,10 +38,10 @@ To create a *software template* using the *meta-template*, you need to follow th
 2. Start a new *software template* by rendering the latest version of this repository. This will generate boiler plate code that can be adapted for your particular use case.
 
 ```shell
-copier copy https://github.com/SS-NES/meta-template.git <path/to/templating-project>
+copier copy gh:SS-NES/meta-template.git <path/to/templating-project>
 ```
 
-3. Make your *software template* a Git repository. Copier uses Git to track update, therefore, a directory containing a *software template* must be a Git repository. 
+1. Make your *software template* a Git repository. Copier uses Git to track update, therefore, a directory containing a *software template* must be a Git repository. 
 
 ```shell
 cd <path/to/project-directory>
@@ -59,7 +59,7 @@ git commit -m 'initial commit'
 copier copy --vcs-ref HEAD <path/to/your-software-template> <path/to/new-project/>
 
 # from a remote Git repository
-copier copy https://github.com/foo/<your-template>.git <path/to/new-project/>
+copier copy gh:foo/<your-template>.git <path/to/new-project/>
 ```
 
 > [!NOTE]
