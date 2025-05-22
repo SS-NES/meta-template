@@ -43,6 +43,7 @@ This template is designed so that researcher at TU Delft can make their software
 
 How to Use
 ----------------
+Your can quickly use this template as follows:
 
 .. code-block:: bash
 
@@ -58,4 +59,13 @@ How to Use
    git commit -m "Initial commit of my software project"
 
    # start coding!
+
+.. note::
+
+   This software template can be applied to preexisting research software projects using the `copier copy` command.
+
+   .. code-block:: bash
+      
+      copier copy gh:manuGil/fair-code.git <./your-preexisting-project>
+
 

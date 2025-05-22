@@ -38,3 +38,32 @@ While adhering to NES best practices, the following modifications were made to t
   using R Markdown to guide users in utilizing the project effectively.
 
 This structure ensures a well-organized, reproducible, and maintainable environment for R-based research and development.
+
+
+How to Use
+----------------
+Your can quickly use this template as follows:
+
+.. code-block:: bash
+
+   # Create a new project using the fair-code template
+   copier copy gh:SS-NES/R-template.git <my-software-project>
+
+   # Navigate to the project directory
+   cd <my-software-project>
+
+   # initialize a git repository
+   git init
+   git add .
+   git commit -m "Initial commit of my software project"
+
+   # start coding!
+
+.. note::
+
+   This software template can be applied to preexisting research software projects using the `copier copy` command.
+
+   .. code-block:: bash
+      
+      copier copy gh:SS-NES/R-template.git <./your-preexisting-project>
+

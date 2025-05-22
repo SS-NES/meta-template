@@ -40,3 +40,34 @@ the following modifications were made:
 - ``tests/`` folder – Organizes and runs validation tests on code or data processing steps.
 
 This ensures a structured, reproducible, and well-documented environment for research software development.
+
+
+
+How to Use
+----------------
+Your can quickly use this template as follows:
+
+.. code-block:: bash
+
+   # Create a new project using the fair-code template
+   copier copy gh:SS-NES/notebook-template.git <my-software-project>
+
+   # Navigate to the project directory
+   cd <my-software-project>
+
+   # initialize a git repository
+   git init
+   git add .
+   git commit -m "Initial commit of my software project"
+
+   # start coding!
+
+.. note::
+
+   This software template can be applied to preexisting research software projects using the `copier copy` command.
+
+   .. code-block:: bash
+      
+      copier copy gh:SS-NES/notebook-template.git <./your-preexisting-project>
+
+
