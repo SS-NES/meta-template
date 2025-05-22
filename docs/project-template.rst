@@ -94,7 +94,7 @@ To publish your software template, you can push it to a Git repository. You can 
    Before publishing your software template, make sure you add a tag with the version number of your software template. Tags is the way **copier** keeps track of the version that template users are using in their software projects. Tags also enable users to incoorporate updates you make on software template into their software projects. You can add a tag using the following command:
 
 .. code-block:: bash
-    
+
    git tag -a v0.1.0 -m "Initial release of my software template"
    git push origin v0.1.0
 
@@ -116,4 +116,4 @@ User of your software template to create a new research software project in the 
 
 .. note::
 
-   Software templates created using the meta-template can be applied to preexisting research software projects. Consul the `copier documentation <https://copier.readthedocs.io/en/stable/faq/#can-copier-be-applied-over-a-preexisting-project>`_ for more details.
+   Software templates created using the meta-template can be applied to preexisting research software projects. Consult the `copier documentation <https://copier.readthedocs.io/en/stable/faq/#can-copier-be-applied-over-a-preexisting-project>`_ for more details.
