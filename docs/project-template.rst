@@ -82,10 +82,23 @@ Publishing a Software Template
 
 To publish your software template, you can push it to a Git repository. You can use any Git hosting service, such as GitHub or GitLab. Once you have pushed your software template to a Git repository, you can share it with others.
 
+
 .. code-block:: bash
 
    git remote add origin <your-git-repo-url>
    git push -u origin main
+
+
+.. important::
+
+   Before publishing your software template, make sure you add a tag with the version number of your software template. Tags is the way **copier** keeps track of the version that template users are using in their software projects. Tags also enable users to incoorporate updates you make on software template into their software projects. You can add a tag using the following command:
+
+.. code-block:: bash
+    
+   git tag -a v0.1.0 -m "Initial release of my software template"
+   git push origin v0.1.0
+
+Replace `v0.1.0` with the version number of your software template. 
 
 
 Using a Software Template
@@ -97,7 +110,7 @@ User of your software template to create a new research software project in the 
 
    # GitHub
    copier copy gh:<your-namespace>/<your-git-repo>.git <my-new-software-project>
-   
+
    # GitLab
    copier copy gl:<your-namespace>/<your-git-repo>.git <my-new-software-project>
 
