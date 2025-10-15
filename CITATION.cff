@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Meta-Template for Research Software
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Manuel Gilberto
+    family-names: Garcia Alvarez
+    email: m.garciaalvarez@tudelft.nl
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0003-1579-9989'
+  - orcid: 'https://orcid.org/0000-0002-6875-1551'
+    given-names: Angelina
+    family-names: Momin
+    email: a.momin@utwente.nl
+    affiliation: University of Twente
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16815885
+    description: DOI for all versions
+repository-code: 'https://github.com/SS-NES/meta-template'
+abstract: >-
+  A tool that helps template creators to create software
+  templates for research software, and adopt best practices
+  on sustainable software for Natural and Engineering
+  Sciences. It provides a way to align best practices and
+  reduce maintenance efforts across organisations, while
+  allowing organisations to customize software templates to
+  their needs.
+keywords:
+  - software template
+  - research software
+  - meta-template
+  - best practices
+  - fair software
+  - open science
+license: Apache-2.0
+version: 2.1.2
+date-released: '2025-08-12'
