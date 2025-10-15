@@ -6,7 +6,7 @@ A list of templating projects using the meta-template.
 
 | Template | Organisation |
 |----------|----------|
-| [Project name]()    | <Name>   |
+| [TU Delft FAIR Software Template](https://github.com/manuGil/fair-code)    | TU Delft DCC   |
 | [Project name]()    | <Name>   |
 | [Project name]()    | <Name>   |
 
