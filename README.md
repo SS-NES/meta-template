@@ -9,7 +9,7 @@ If you came here looking for a template to start your own research software proj
 | 1. Code Repository | [![GitHub Badge](https://img.shields.io/github/v/release/SS-NES/meta-template?color=blue)](https://github.com/SS-NES/meta-template/releases/latest) |
 | 2. License |  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 | 3. Community Registry | [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier)|
-| 4. Enable Citation  |  |
+
 
 ## Why?
 
