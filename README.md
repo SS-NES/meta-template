@@ -4,11 +4,11 @@ A tool that helps **template creators** to create **software templates** for res
 
 If you came here looking for a template to start your own research software project, you check out the [Software Template Registry](REGISTRY.md) for a list of software templates that are using the *meta-template*.
 
-| [FAIR-Software Recommendations](https://fair-software.nl) | Badges|
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1. Code Repository | [![GitHub Badge](https://img.shields.io/github/v/release/SS-NES/meta-template?color=blue)](https://github.com/SS-NES/meta-template/releases/latest) |
-| 2. License |  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
-| 3. Community Registry | [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier)|
+| [FAIR-Software Recommendations](https://fair-software.nl) | Badges                                                                                                                                                                       |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Code Repository                                        | [![GitHub Badge](https://img.shields.io/github/v/release/SS-NES/meta-template?color=blue)](https://github.com/SS-NES/meta-template/releases/latest)                          |
+| 2. License                                                | [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)                                                           |
+| 3. Community Registry                                     | [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-black.json)](https://github.com/copier-org/copier) |
 
 
 ## Why?
@@ -29,6 +29,11 @@ Because research organisations can produce high-quality research software by ado
 - **Software Project:** the software schaffolding generated using a *software template*. It contains files, directories and scaffolding code to start developing research software. 
 - **Template Creator:** a person or team that creates a *software template* using the *meta-template*. Template creators are responsible for maintaining the software template and keeping it up to date with the latest best practices provided by the **meta-template**.
 - **Template User:** a person or team that uses a *software template* to start a new  research software project. Template users decide when to update their research software projects with the latest best practices provided by a *software template*.
+
+## Video Demo
+
+[![Meta-Template Demo](./docs/_static/img/video-demo.png)](https://youtu.be/1r_VUipi3cw)
+
 
 ## How to Create a Software Template
 To create a *software template* using the *meta-template*, you need to follow these steps:
