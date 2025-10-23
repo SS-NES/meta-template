@@ -30,9 +30,11 @@ Because research organisations can produce high-quality research software by ado
 - **Template Creator:** a person or team that creates a *software template* using the *meta-template*. Template creators are responsible for maintaining the software template and keeping it up to date with the latest best practices provided by the **meta-template**.
 - **Template User:** a person or team that uses a *software template* to start a new  research software project. Template users decide when to update their research software projects with the latest best practices provided by a *software template*.
 
-## Video Demo
+## Demo
 
-[![Meta-Template Demo](./docs/_static/img/video-demo.png)](https://youtu.be/1r_VUipi3cw)
+Click below to watch a video demo o the tool.
+
+[![Meta-Template Demo](./docs/_static/img/thumbnail.png)](https://youtu.be/kic0WKlaNaE)
 
 
 ## How to Create a Software Template

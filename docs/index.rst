@@ -12,8 +12,9 @@ It provides a way to align best practices and reduce maintainance efforts across
 .. raw:: html
 
    <div style="overflow: hidden; max-width: 100%; margin-bottom: 20px;">
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/1r_VUipi3cw" title="Meta-Template for Research Software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/kic0WKlaNaE?si=aD3-PMtmjuY95BSo" title="Meta-Template for Research Software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    </div>
+
 
 .. toctree::
    :maxdepth: 2
