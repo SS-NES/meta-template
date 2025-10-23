@@ -34,7 +34,7 @@ Because research organisations can produce high-quality research software by ado
 
 Click below to watch a video demo o the tool.
 
-[![Meta-Template Demo](./docs/_static/img/thumbnail.png)](https://youtu.be/kic0WKlaNaE)
+[![Meta-Template Demo](./docs/_static/img/thumbnail.png)](https://youtu.be/z-bmsxxQV6o)
 
 
 ## How to Create a Software Template
