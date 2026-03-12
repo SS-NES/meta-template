@@ -7,6 +7,6 @@ A list of templating projects using the meta-template.
 | Template | Organisation |
 |----------|----------|
 | [TU Delft FAIR Software Template](https://github.com/manuGil/fair-code)    | TU Delft DCC   |
-| [UT Research Software Template](https://github.com/delapazruiz/UTTemplateRpilot)    | UTwente LISA-DCC   |
+| [UT Research Software Template](https://github.com/delapazruiz/fairRcode)    | UTwente LISA-DCC   |
 | [Project name]()    | <Name>   |
 
