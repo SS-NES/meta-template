@@ -20,7 +20,7 @@ plumbum==1.9.0
 prompt-toolkit==3.0.36
 pydantic==2.9.2
 pydantic_core==2.23.4
-Pygments==2.18.0
+Pygments==2.20.0
 PyYAML==6.0.2
 questionary==2.0.1
 requests==2.32.3
