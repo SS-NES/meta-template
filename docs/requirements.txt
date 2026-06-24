@@ -4,7 +4,7 @@ babel==2.17.0
 certifi==2025.1.31
 charset-normalizer==3.4.1
 colorama==0.4.6
-copier==9.5.0
+copier==9.14.1
 docutils==0.21.2
 dunamai==1.22.0
 funcy==2.0
