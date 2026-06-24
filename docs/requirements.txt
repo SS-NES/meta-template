@@ -23,7 +23,7 @@ pydantic_core==2.23.4
 Pygments==2.20.0
 PyYAML==6.0.2
 questionary==2.0.1
-requests==2.32.3
+requests==2.33.0
 snowballstemmer==2.2.0
 Sphinx==8.1.3
 sphinx-rtd-theme==3.0.2
