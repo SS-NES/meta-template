@@ -1,7 +1,7 @@
 alabaster==1.0.0
 annotated-types==0.7.0
 babel==2.17.0
-certifi==2025.1.31
+certifi==2026.10.18
 charset-normalizer==3.4.1
 colorama==0.4.6
 copier==9.14.1
